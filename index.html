@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Protfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/59325657d0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+<div class="container">
+<nav>
+    <img src="images/Logo.png" alt="Logo">
+    <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Protfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+<div class="header-text">
+    <p>UI/UX Designer</p>
+    <h2>Hi, I'm <span>Sandesh</span> <br>Sedai from Nepal</h2>
+</div>
+</div>
+
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/User.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Welcome to my protfolio. I have good experience in video and photo editing. Currently I am pursuing my bachelor's degree Balmiki Lincoln College,Birtamod. My hobbies are playing outdoors sports like football and visiting new places. Being in this field, I'm trying to enjoying my journey targeting to be full stack web developer. Now I'm in phase of learning and collecting experiences. In short, you can call me an explorer.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/IX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Andriod/IOS apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - current</span><br>UI/UX Design Training at ET Institute</li>
+                            <li><span>2019 - 2021</span><br>Team lead at StarApp LLC. <Select:disabled></Select:disabled></li>
+                            <li><span>2017 - 2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                            <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2075 BS</span><br>Passed SEE in 1st Div</li>
+                            <li><span>2077 BS</span><br>Completed +2 in 1st Div(Computer Science) in Surunga.</li>
+                            <li><span>2078 BS</span><br>Completed Computer Operator in Kankai Polytechnic Institute</li>
+                            <li><span>Currently from 2079 BS</span><br>Studying BIT in Balmiki lincoln College.</li>
+                        </ul>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- servieces -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+<div>
+    <i class="fa-solid fa-code"></i>
+    <h2>Web Design</h2>
+    <p>Web design is the creation of the look and feel of a website, focusing on user experience (UX) and visual elements to make it functional and appealing. It involves planning, layout, and design with an emphasis on user experience.</p>
+    <a href="#">Learn More</a>
+</div>
+<div>
+    <i class="fa-solid fa-crop-simple"></i>
+    <h2>UI/UX Design</h2>
+    <p>UI/UX design combines user experience (UX) with user interface (UI) design. UX focuses on how usable a product is, while UI makes it visually appealing and user-friendly. Imagine UX as the skeleton and UI as the muscles and skin - they work together for a smooth experience.
+    </p>
+    <a href="#">Learn More</a>
+</div>
+<div>
+    <i class="fa-brands fa-app-store"></i>
+    <h2>App Design</h2>
+    <p>App design is creating the user interface (UI) and user experience (UX) for mobile applications. It blends functionality with attractive design to make apps easy and enjoyable to use on a phone or tablet.</p>
+    <a href="#">Learn More</a>
+</div>
+        </div>
+    </div>
+    
+    <!-- protfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work-1.png"alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world.Download it from play store</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-2.png"alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world.Download it from play store</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-3.png"alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the world.Download it from play store</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more</a>
+            
+        </div>
+    </div>
+
+
+    <!-- contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+9779800000000</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+
+<a href="Images/Sajilo-CV.pdf" download class="btn btn2">Download Cv</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="Email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Sandesh || All Rights Reserved</p>
+        </div>
+    </div>
+
+    <script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+    </script>
+
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzMtNLhb6YPhEbfy1AZwiDZBqUzp8SPk8q_7X-TH7jwaAlCdZpXRZy0voZ3YsjSKyfptw/exec'
+
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+             msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+</body>
+</html>
